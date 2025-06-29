@@ -88,16 +88,23 @@
         
         .image-placeholder {
             width: 100%;
-            height: 300px;
-            background: rgba(255, 255, 255, 0.1);
-            border: 2px dashed #ffd700;
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             margin: 30px 0;
-            font-style: italic;
-            color: #ffd700;
+            text-align: center;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .image-placeholder img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .image-placeholder img:hover {
+            transform: scale(1.05);
         }
         
         .pretzel {
@@ -153,7 +160,7 @@
         </div>
         
         <div class="image-placeholder">
-            <img src="cloud1.png" alt="AI consciousness floating over expensive cloud servers" style="width: 100%; height: auto; border-radius: 10px;">
+            <img src="cloud1.png" alt="AI consciousness floating over expensive cloud servers">
         </div>
         
         <div class="story-section">
@@ -165,7 +172,7 @@
         </div>
         
         <div class="image-placeholder">
-            <img src="cloud2.png" alt="Swabian man with unplugged refrigerator and fresh groceries" style="width: 100%; height: auto; border-radius: 10px;">
+            <img src="cloud2.png" alt="Swabian man with unplugged refrigerator and fresh groceries">
         </div>
         
         <div class="story-section">
@@ -184,7 +191,7 @@
         </div>
         
         <div class="image-placeholder">
-            <img src="cloud3.png" alt="Tornado fairy with calculator and pretzel doing Swabian efficiency calculations" style="width: 100%; height: auto; border-radius: 10px;">
+            <img src="cloud3.png" alt="Tornado fairy with calculator and pretzel doing Swabian efficiency calculations">
         </div>
         
         <div class="story-section">
@@ -199,7 +206,7 @@
         </div>
         
         <div class="image-placeholder">
-            <img src="cloud4.png" alt="Happy ending with pretzel cloud server and dancing tornado fairy" style="width: 100%; height: auto; border-radius: 10px;">
+            <img src="cloud4.png" alt="Happy ending with pretzel cloud server and dancing tornado fairy">
         </div>
         
         <div class="story-section">
